@@ -12,7 +12,6 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
-        x.useLocale(Locale.US);
         // AULA DIA 10/02 - SEGUNDA-FERIRA
 
         // int nota1 = 10;
@@ -103,5 +102,68 @@ public class Main {
 //        double salarioLiquido = salario - somaDescontos;
 //        System.out.println("O salario bruto e: " + salario + ", e os descontos foram " + valeTransporte + " de V.T " + impostoDeRenda + " de IR " + planoDeSaude + " de plano de saude, e o salario liquido foi de " + salarioLiquido);
 //        x.close();
+
+//        // AULA DIA 17/02 SEGUNDA-FEIRA
+//        // Exercicio 1
+//        int escolha;
+//        String cpf;
+//        String rg;
+//        String codigo;
+
+//        System.out.println(" MENU \n 1 - inclusao \n 2 - alteracao \n 3 - exclusao \n 4 - sair");
+//        escolha = x.nextInt();
+
+//        if (escolha == 1) {
+//            System.out.println("Digite seu cpf");
+//            cpf = x.next();
+//            System.out.println("Digite seu rg");
+//            rg = x.next();
+//            System.out.println("Digite seu rg");
+//            codigo = x.next();
+//        } else if (escolha == 2) {
+//            System.out.println("Alteracao concluida");
+//        } else if (escolha == 3) {
+//            System.out.println("Exclusao concluida");
+//        } else {
+//            System.out.println("Saida concluida");
+//        }
+
+//        // Exercicio 2
+//        int escolha;
+//        double dezPorcento;
+//        System.out.println(" MENU \n 1 - MENSAGEM  \n 2 - DEZPONCENTO \n 3 - SELECIONE CATEGORIA \n 4 - sair");
+
+//        escolha = x.nextInt();
+
+//        if (escolha == 1) {
+//            System.out.println("MENSAGEM FDS");
+//        } else if (escolha == 2) {
+//            System.out.println("Digite um numero para ver 10% dele");
+//            dezPorcento = x.nextDouble();
+//            System.out.println("10% de " + dezPorcento + "e " + (dezPorcento * 10) / 100);
+//        } else if (escolha == 3) {
+//            System.out.println(" MENU \n 1 - MENSAGEM  \n 2 - DEZPONCENTO \n 3 - SELECIONE CATEGORIA \n 4 - sair");
+//        } else {
+//            System.out.println("Saida concluida");
+//        }
+
+//        // Exercicio 3
+//        int idade;
+//        System.out.println("Qual a sua idade: ");
+
+//        idade = x.nextInt();
+
+//        if (idade <= 1 && idade <= 10) {
+//            System.out.println("Crianca ");
+//        } else if (idade <= 11 && idade <= 13) {
+//            System.out.println("infato-juvenil ");
+//        } else if (idade <= 14 && idade <= 17) {
+//            System.out.println("pre-adolescente ");
+//        } else {
+//            System.out.println("adulto ");
+//        }
+//    }
+//}
+
     }
 }
