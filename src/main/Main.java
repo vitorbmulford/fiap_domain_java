@@ -162,6 +162,48 @@ public class Main {
 //        } else {
 //            System.out.println("adulto ");
 //        }
+//        // AULA DIA 21/02 SEXTA-FEIRA
+//        // Exercicio 1
+//        double velocidadePermitidaNaVia;
+//        System.out.println("Velocidade Permitida: ");
+//        velocidadePermitidaNaVia = x.nextDouble();
+//        System.out.println("Velocidade Permitida: " + velocidadePermitidaNaVia);
+//
+//        double velocidadeMomento;
+//        System.out.println("Velocidade Do momento: ");
+//        velocidadeMomento = x.nextDouble();
+//        System.out.println("Velocidade Do momento é de: " + velocidadeMomento);
+//
+//        double diferenca = velocidadeMomento - velocidadePermitidaNaVia;
+//        if (diferenca > 0) {
+//            if (diferenca < 10) {
+//                System.out.println("Sem multa");
+//            } else if (diferenca >= 10 && diferenca < 11) {
+//                System.out.println("Multa de 80");
+//            } else if (diferenca >= 11 && diferenca <= 39) {
+//                System.out.println("Multa de 120");
+//            } else if (diferenca >= 40) {
+//                System.out.println("Multa de 200");
+//            } else {
+//                System.out.println("Velocidade dentro do limite");
+//            }
+//        }
+//        // Exercicio 2 
+//        double salario;
+//        System.out.println("Valor do salario: ");;
+//        salario = x.nextDouble();
+//        double valeTransporte = (salario * 2) / 100;
+//        double ticketRefeicao = (salario * 6) / 100;
+//        double impostoDeRenda = (salario * 7) / 100;
+//        double salarioLiquido = salario - valeTransporte - ticketRefeicao - impostoDeRenda;
+//        if (salario >= 1200) {
+//            double impostoDeRendaDesconto = (impostoDeRenda * 15) / 100;
+//            salarioLiquido = salario - valeTransporte - ticketRefeicao - impostoDeRendaDesconto;
+//            System.out.println("Houve mais um desconto pois o salario é maior que 1200 ");;
+//        } else {
+//            System.out.println("Nao houve desconto");;
+//        }
+//        System.out.println("Salario liquido final : " + salarioLiquido);
 //    }
 //}
 
